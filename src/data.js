@@ -1,4 +1,4 @@
-let cars = [
+export const worksArr = [
     {
       "name": "Lotto",
       "link": "somelink",
@@ -8,4 +8,4 @@ let cars = [
         "link": "somelink",
       },
 ]
-console.log(cars[1].name);
+// console.log(cars[1].name);

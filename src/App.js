@@ -1,13 +1,17 @@
 // library
-import React from 'react';
+import React from "react";
+
+//components
+import GifContainer from "./GifContainer";
 
 //styles
-import './App.css';
+import "./App.css";
+import { worksArr } from "./data";
 
 function App() {
   return (
     <div className="App">
-      test
+      <GifContainer worksArr={worksArr}/>
     </div>
   );
 }
