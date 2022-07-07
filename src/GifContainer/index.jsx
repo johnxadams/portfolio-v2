@@ -1,6 +1,7 @@
+// library
 import React from 'react'
 
-// import { worksArr } from "../../";
+
 
 export default function GifContainer(props) {
   return (
